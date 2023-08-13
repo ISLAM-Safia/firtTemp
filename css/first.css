@@ -851,3 +851,122 @@ a {
   font-size: 15px;
   text-transform: uppercase;
 }
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    /* Adjust header styles for smaller screens */
+    .nav {
+        display: none;
+        text-align: center;
+    }
+    .nav.active {
+        display: block;
+    }
+    .nav li {
+        margin: 10px 0;
+    }
+    .nav .dropdown-menu {
+        position: static;
+        display: block;
+    }
+    .nav .dropdown-menu li {
+        display: block;
+        text-align: center;
+    }
+    .logo {
+        margin: 10px auto;
+    }
+    /* Adjust home section styles for smaller screens */
+    .home-content {
+        text-align: center;
+    }
+    .btn {
+        margin-top: 15px;
+    }
+    /* Adjust about section styles for smaller screens */
+    .about-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    /* Adjust portfolio section styles for smaller screens */
+    .portfolio-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+    /* Adjust offer section styles for smaller screens */
+    .offer-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    /* Adjust service section styles for smaller screens */
+    .service-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    /* Adjust number section styles for smaller screens */
+    .number-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    /* Adjust pricing section styles for smaller screens */
+    .pricing-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    /* Adjust testimonial section styles for smaller screens */
+    .teximonial-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    /* Adjust team section styles for smaller screens */
+    .team-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    /* Adjust blog section styles for smaller screens */
+    .blog-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    /* Adjust call section styles for smaller screens */
+    .call-item {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    form {
+        margin: 20px 0;
+    }
+}
+
+/* Adjust footer styles for smaller screens */
+.footer-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Make the form inputs responsive */
+input[type="name"],
+input[type="email"],
+input[type="subject"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Adjust form submit button style */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
